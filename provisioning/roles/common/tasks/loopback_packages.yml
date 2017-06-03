@@ -1,0 +1,8 @@
+---
+- name: install loopback-cli
+  npm:
+    name: loopback-cli
+    global: yes
+  tags:
+  - loopback
+  - packages

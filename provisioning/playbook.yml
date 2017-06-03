@@ -1,0 +1,8 @@
+---
+- name: Provisioning for a Loopback project
+  hosts: all
+  sudo: yes
+  gather_facts: true
+  roles:
+    - ansible-nodejs-role
+    - common        # Common packages to update
